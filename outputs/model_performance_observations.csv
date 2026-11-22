@@ -1,0 +1,7 @@
+ML Model Name,Observation about model performance
+Logistic Regression,"Achieved Accuracy=0.9009, AUC=0.7523, F1=0.1844, and MCC=0.2188. Logistic Regression provided a strong baseline model for predicting customer churn after feature scaling."
+Decision Tree,"Achieved Accuracy=0.8508, AUC=0.5498, F1=0.1900, and MCC=0.1096. The model captured nonlinear relationships in customer behavior but was more susceptible to overfitting than ensemble methods."
+kNN,"Achieved Accuracy=0.8916, AUC=0.6377, Precision=0.3731, Recall=0.0953, F1=0.1518, and MCC=0.1466. The model benefited from feature scaling and effectively utilized neighborhood information for churn classification."
+Naive Bayes,"Achieved Accuracy=0.3936, AUC=0.5581, F1=0.1989, and MCC=0.0598. Performance was influenced by the independence assumptions of the Naive Bayes algorithm."
+Random Forest (Ensemble),"Achieved Accuracy=0.8992, AUC=0.7444, F1=0.0326, and MCC=0.0984. The ensemble approach improved generalization and reduced variance compared with a single Decision Tree."
+Overall Winner for your dataset?,"Naive Bayes is the overall winner for the telecom churn dataset. It achieved Accuracy=0.3936, Precision=0.1149, Recall=0.7397, F1=0.1989, and MCC=0.0598. The selection is based on combined performance across all required evaluation metrics."

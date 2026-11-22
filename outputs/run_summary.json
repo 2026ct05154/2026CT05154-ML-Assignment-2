@@ -1,0 +1,22 @@
+{
+  "student_id": "2026CT05154",
+  "random_state": 42,
+  "dataset": "Telecom Customer Churn Dataset",
+  "rows_before_duplicate_removal": 50200,
+  "duplicates_removed": 200,
+  "rows_after_duplicate_removal": 50000,
+  "number_of_features": 16,
+  "missing_values": 12620,
+  "training_rows": 40000,
+  "test_rows": 10000,
+  "overall_winner": "Naive Bayes",
+  "training_times_seconds": {
+    "Logistic Regression": 0.696341,
+    "Decision Tree": 7.183018,
+    "kNN": 0.145167,
+    "Naive Bayes": 2.533288,
+    "Random Forest (Ensemble)": 94.683214
+  },
+  "python_version": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+}
