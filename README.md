@@ -107,12 +107,13 @@ The following metrics were used:
 *(Insert the evaluation table generated from `results_df` here.)*
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
-|--------------|----------|-----|-----------|--------|----|-----|
-| Logistic Regression | | | | | | |
-| Decision Tree | | | | | | |
-| kNN | | | | | | |
-| Naive Bayes | | | | | | |
-| Random Forest (Ensemble) | | | | | | |
+|--------------|----------|------|-----------|--------|------|------|
+| Logistic Regression | 0.9009 | 0.7523 | 0.5685 | 0.1100 | 0.1844 | 0.2188 |
+| Decision Tree | 0.8508 | 0.5498 | 0.2124 | 0.1719 | 0.1900 | 0.1096 |
+| kNN | 0.8916 | 0.6377 | 0.3731 | 0.0953 | 0.1518 | 0.1466 |
+| Naive Bayes | 0.3936 | 0.5581 | 0.1149 | 0.7397 | 0.1989 | 0.0598 |
+| Random Forest (Ensemble) | 0.8992 | 0.7444 | 0.7083 | 0.0167 | 0.0326 | 0.0984 |
+
 
 ---
 
